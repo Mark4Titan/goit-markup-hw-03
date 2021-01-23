@@ -65,6 +65,32 @@ img {
 
 /* ================== навігація IN ==================*/
 
+.header .cotainer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .logotype {
   font-family: var(--title-font);
   font-weight: 700;
@@ -72,6 +98,16 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--color-font-normal);
+
+  margin-right: 93px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav {
@@ -97,6 +133,7 @@ img {
 /* <!--hero  IN-->*/
 .hero {
   background-color: var(--bg-footer-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -109,18 +146,31 @@ img {
 }
 
 .hero-button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
+  text-align: center;
+  color: var(--color-font-light);
+  background-color: var(--color-font-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.842;
   letter-spacing: 0.06em;
-  color: var(--color-font-light);
-  background-color: var(--color-font-accent);
   cursor: pointer;
 }
 
 /* <!--hero  OUT-->*/
 
 /*<!--<!--benefits-->  IN-->*/
+.advantages-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .title-advantages {
   font-size: 0px;
 }
@@ -201,6 +251,9 @@ img {
 
 .logotype-footer {
   color: var(--color-font-light);
+}
+.hero .cotainer {
+  padding: 200px;
 }
 
 .contact {
