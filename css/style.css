@@ -73,7 +73,10 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ececec;
 }
+
+/* ==================================================== */
 
 .navigation {
   display: flex;
@@ -95,11 +98,14 @@ img {
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--color-font-normal);
-
   margin-right: 93px;
+}
+.cotainer .navigation {
+  display: flex;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -169,6 +175,11 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-top: 94px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .title-advantages {
@@ -179,6 +190,7 @@ img {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--color-font-normal);
+  margin-bottom: 10px;
 }
 
 .advantages-paragraph-item {
@@ -189,12 +201,58 @@ img {
 /*<!--<!--benefits-->  OUT-->*/
 
 /*<!--Чем мы занимаемся  IN-->*/
+.section-What-and-what-we-do .cotainer {
+  margin-top: 94px;
+}
+
+.title-What-and-what-we-do {
+  margin-bottom: 50px;
+}
+/*  */
+.What-and-what-we-do-list {
+  margin-bottom: 188px;
+  display: flex;
+  align-items: center;
+}
+
+.title-team {
+  margin-bottom: 50px;
+}
+
 .What-and-what-we-do {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-font-normal);
+}
+
+.What-and-what-we-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-title,
+.team-paragraph-item {
+  text-align: center;
+}
+
+/* .team-paragraph-item {
+  margin-bottom: 30px;
+} */
+
+.team-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.team-item:not(:last-child) {
+  align-items: center;
+  margin-right: 30px;
+  /*  */
+}
+
+.wrapper {
+  padding: 30px 0;
 }
 
 .text {
@@ -245,6 +303,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-font-gray);
 }
+
+.team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--color-font-light);
+}
 /*<!--Filters  OUT-->*/
 
 /*<!--footer IN-->*/
@@ -252,6 +317,7 @@ img {
 .logotype-footer {
   color: var(--color-font-light);
 }
+
 .hero .cotainer {
   padding: 200px;
 }
@@ -259,9 +325,6 @@ img {
 .contact {
   font-weight: 500;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.714px;
-  letter-spacing: 0.03em;
 }
 
 .address-contact-geolocation-link {
@@ -275,4 +338,20 @@ img {
 .footer {
   background-color: var(--bg-footer-color);
 }
-/*<!--footer OUT-->*/
+
+.footer .cotainer {
+  display: flex;
+  padding: 60px 0;
+  flex-direction: column;
+}
+
+.footer-logo {
+  /*  */
+  margin-bottom: 20px;
+}
+
+.address-contact-item {
+  margin-top: 9px;
+}
+
+/*<!--footer OUT-->*/ ;
