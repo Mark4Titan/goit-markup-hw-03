@@ -406,6 +406,12 @@ img {
 
 .address-contact-geolocation-link {
   color: var(--color-font-light);
+  font-style: normal;
+}
+
+.address-contact-geolocation-link:hover,
+.address-contact-geolocation-link:focus {
+  color: var(--color-font-accent);
 }
 
 .address-contact-link {
