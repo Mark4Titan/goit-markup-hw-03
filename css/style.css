@@ -212,15 +212,15 @@ img {
 /*<!--<!--benefits-->  OUT-->*/
 
 /*<!--Чем мы занимаемся  IN-->*/
-.section-What-and-what-we-do .container {
+.section-do .container {
   margin-top: 94px;
 }
 
-.title-What-and-what-we-do {
+.title-do {
   margin-bottom: 50px;
 }
 /*  */
-.What-and-what-we-do-list {
+.do-list {
   margin-bottom: 188px;
   display: flex;
   align-items: center;
@@ -230,7 +230,7 @@ img {
   margin-bottom: 50px;
 }
 
-.What-and-what-we-do {
+.do {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -238,7 +238,7 @@ img {
   color: var(--color-font-normal);
 }
 
-.What-and-what-we-do-item:not(:last-child) {
+.do-item:not(:last-child) {
   margin-right: 30px;
 }
 
