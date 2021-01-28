@@ -74,8 +74,8 @@ img {
 }
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   border: 1px solid #ececec;
 }
 
@@ -84,6 +84,13 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+}
+
+.navigation-list-item .nav,
+.contact-list .nav {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-list {
@@ -122,7 +129,7 @@ img {
 .nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142px;
+  line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--color-font-normal);
@@ -161,6 +168,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -207,14 +215,15 @@ img {
 
 .advantages-paragraph-item {
   font-weight: 500;
-  font-size: 14px;
+  width: 270px;
+  height: 75px;
   color: var(--color-font-gray);
 }
 /*<!--<!--benefits-->  OUT-->*/
 
 /*<!--Чем мы занимаемся  IN-->*/
 .section-do .container {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .title-do {
@@ -267,6 +276,8 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
   background-color: var(--color-font-light);
 }
 
@@ -397,9 +408,8 @@ img {
 
 /*<!--footer IN-->*/
 
-.address-list,
 .address-contact-item {
-  margin-top: 9px;
+  line-height: 1.714;
 }
 
 .filters-section {
@@ -434,11 +444,13 @@ img {
 
 .footer .container {
   display: flex;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   flex-direction: column;
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 20px;
 }
 
