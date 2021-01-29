@@ -74,8 +74,8 @@ img {
 }
 
 .header {
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  /* padding-top: 32px; */
+  /* padding-bottom: 32px; */
   border: 1px solid #ececec;
 }
 
@@ -409,11 +409,12 @@ img {
 /*<!--footer IN-->*/
 
 .address-contact-item {
+  padding-top: 9px;
   line-height: 1.714;
 }
 
 .filters-section {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .logotype-footer {
