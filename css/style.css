@@ -76,7 +76,7 @@ img {
 .header {
   /* padding-top: 32px; */
   /* padding-bottom: 32px; */
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* ==================================================== */
@@ -218,16 +218,32 @@ img {
 }
 
 .advantages-paragraph-item {
-  font-weight: 500;
   width: 270px;
   height: 75px;
   color: var(--color-font-gray);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+}
+
+.advantages-item {
+  width: 270px;
+  height: 100px;
 }
 /*<!--<!--benefits-->  OUT-->*/
 
 /*<!--Чем мы занимаемся  IN-->*/
 .section-do .container {
   padding-top: 94px;
+}
+
+.do-item-img {
+  width: 370px;
+  height: 294px;
 }
 
 .title-do {
@@ -281,12 +297,12 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
-  height: 368px;
   background-color: var(--color-font-light);
 }
 
 .wrapper {
   padding: 30px 0;
+  text-align: center;
 }
 
 .text {
@@ -301,6 +317,8 @@ img {
 
 .team-paragraph-item {
   color: var(--color-font-gray);
+
+  margin-top: 9px;
 }
 
 /*<!--Чем мы занимаемся  OUT-->*/
